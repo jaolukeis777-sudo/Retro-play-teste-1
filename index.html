@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Biblioteca de jogos retrô gratuitos e distribuídos legalmente.">
+  <title>RetroPlay — Biblioteca de jogos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <a class="logo" href="#">RETRO<span>PLAY</span></a>
+  <nav><a href="#biblioteca">Biblioteca</a><a href="#sobre">Sobre</a></nav>
+</header>
+<main>
+  <section class="hero">
+    <div class="eyebrow">☄ SUA CENTRAL RETRÔ</div>
+    <h1>Reviva os<br><span>clássicos.</span></h1>
+    <p>Uma biblioteca organizada de jogos retrô gratuitos, homebrews e demos autorizadas.</p>
+    <a class="cta" href="#biblioteca">EXPLORAR JOGOS <b>↘</b></a>
+    <div class="disc">PS1<br>PS2<br>+ MAIS</div>
+  </section>
+  <section id="biblioteca" class="library">
+    <div class="section-head"><div><div class="eyebrow">CATÁLOGO</div><h2>Biblioteca de jogos</h2></div>
+      <input id="search" type="search" placeholder="Buscar jogo..." aria-label="Buscar jogo">
+    </div>
+    <div class="filters" id="filters">
+      <button class="active" data-filter="todos">Todos</button>
+      <button data-filter="PS1">PlayStation 1</button>
+      <button data-filter="PS2">PlayStation 2</button>
+      <button data-filter="Outros">Outros consoles</button>
+    </div>
+    <div id="games" class="games"></div>
+    <p id="empty" class="empty" hidden>Nenhum jogo encontrado. Confira o nome ou adicione jogos autorizados à biblioteca.</p>
+  </section>
+  <section id="sobre" class="about">
+    <div class="eyebrow">IMPORTANTE</div>
+    <h2>Preservação retrô<br>com responsabilidade.</h2>
+    <p>Este site é um modelo de catálogo. Ele não inclui ROMs comerciais. Publique somente jogos homebrew, demos ou arquivos que você criou ou tem autorização expressa para distribuir. Ter um console ou disco não significa automaticamente ter direito de disponibilizar uma cópia na internet.</p>
+  </section>
+</main>
+<footer>RETRO<span>PLAY</span> <small>Feito para fãs de videogames • 2026</small></footer>
+<script src="app.js"></script>
+</body>
+</html>
